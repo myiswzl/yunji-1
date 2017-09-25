@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/jimingming.css">
+        <script src="../js/jquery-1.11.1.js"></script>
+        <script>
+        $(function(){
+            /*微信扫码显示隐藏*/
+            $('.weixin').mouseenter(function(event) {
+            	$('.wxsm').show(100);
+            });
+             $('.weixin').mouseleave(function(event) {
+            	$('.wxsm').hide(100);
+            });             
+    /*下拉到一定位置按钮显现*/
+      $(window).scroll(function() {
+             var wh=$(window).height();
+                  /*窗口高度*/
+             var wt=$(window).scrollTop();
+        			/*窗口滚动了多少*/
+        			if(wt>wh){
+                          $('#anniu').fadeIn(300);
+                  }else{
+                  	$('#anniu').fadeOut(300);
+                  } 
+
+                });
+
+    /*点击回到顶部*/
+
+      $('#anniu').bind('click',function(){
+			$('html,body').animate({'scrollTop':'0px'},500);
+					});
+    
+
+
+
+
+        	});
+        </script>
+
+
+
+    </head>
+    <body>
+	    <div class="one"><!-- 整体 -->
+	    	<div class="two"><!-- 左边栏 -->
+	    		<h1 class="logo"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/index.html"></a></h1>
+	    		<ul>
+	    			<li class="gdbj"><a href="#"><strong class="name">吉命名</strong><span>中文命名&nbsp;英文命名</span></a></li>
+	    			<li class="zengjiayanselei"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jipingpaizixun.html"><strong>吉品牌咨询</strong><span>品牌战略&nbsp;品牌管理<br>企业文化</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jimoshi.html"><strong>吉模式</strong><span>商业模式&nbsp;招商模式<br>众筹模式&nbsp;定价模式</span></a></li>
+	    			<li class="zengjiayanselei"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibiaozhivi.html"><strong>吉标志VI</strong><span>LOGO&nbsp;VI&nbsp;吉祥物</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibaozhuang.html"><strong>吉包装</strong><span>包装&nbsp;互联网包装&nbsp;产品视频</span></a></li>
+	    			<li class="zengjiayanselei"><a href="#"><strong>吉网络</strong><span>网站建设&nbsp;设计&nbsp;运营&nbsp;微信开发运营&nbsp;H5</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jihuanjing.html"><strong>吉环境导示</strong><span>空间展厅&nbsp;环境&nbsp;导示</span></a></li>
+	    			<li class="zengjiayanselei1"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiziben.html"><strong class="ziti">吉资本</strong><span class="ziti1">路演视频+PPT+场景股权设计&nbsp;融资辅导</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jichuanbo.html"><strong>吉传播</strong><span>视频&nbsp;营销传播&nbsp;活动</span></a></li>
+	    		</ul>
+	    		<div class="two1"></div>
+	    	</div>
+	    	<div class="there"><!-- 右边内容 -->
+	    		<div class="four"><!-- 上边栏 -->
+	    			<ul>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/liaojieyunji.html"><span style="font-size: 14px;">一分钟</span><p>了解云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/pingpaitisheng.html"><span>云吉团队如何帮你</span><p>提升品牌</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiyan.html"><span>&nbsp</span><p>吉言</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>案例大全</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/laifangyunji.html"><span>眼见为实</span><p>来访云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/zhikansheji.html"><span>精彩设计</span><p>只看作品</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/lianxiwomen.html"><span>&nbsp</span><p>联系我们</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>动态</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/zhaopin.html"><span>&nbsp</span><p>招聘</p></a></li>
+	    			</ul>
+	    			<div class="four1"><a href="#"><strong>0755-88900080<br>0755-88900090</strong><br><span>一对一咨询服务</span></a></div>
+	    		</div>
+	    		<div class="five"><!-- 下边内容 -->
+	    		<div class="seven"><img src="../img/jimingming-img/mmbanner.jpg" alt="" width="1050px"></div>
+	    		<div class="six">
+	    			<ul>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T252N3.png" alt=""><p>茶野的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T325358.png" alt=""><p>安洁乐品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T310606.png" alt=""><p>CICI公主的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T219249.png" alt=""><p>凯蕾贝贝的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T12M57.png" alt=""><p>十点一刻的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T00K19.png" alt=""><p>伊德莱克的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T520916.png" alt=""><p>润岁品牌的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T10a96.png" alt=""><p>她梵品牌的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T0545G.png" alt=""><p>洗车超人的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T02C30.png" alt=""><p>琊泰品牌的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T410I1.png" alt=""><p>开心娃娃机的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T235405.png" alt=""><p>黑金钻的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261S633215.png" alt=""><p>布之布的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T432523.png" alt=""><p>麦客家族的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261ST9402.png" alt=""><p>云吉良品的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T45H26.png" alt=""><p>泽越佳护的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261S934914.png" alt=""><p>云吉环保的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261S94U02.png" alt=""><p>壹品的品牌命名</p></a></li>
+	    				<li><a href=""><img src="../img/jimingming-img/1-1F4261T203T9.png" alt=""><p>一棵桂花树的品牌命名</p></a></li>
+
+	    			</ul>
+	    		</div>
+
+	    		</div>
+	    	</div>
+	    </div>
+	    <footer>
+	        <span id="anniu"></span>
+	    	<div class="thirteen">
+	    		<div class="thirteen1">
+	    			<p><a href="">服务条款</a>&nbsp;<span>|</span>
+	    			   <a href="">隐私政策</a>&nbsp;<span>|</span>
+	    			   <a href=""> 云吉天下</a>&nbsp;<span>|</span>
+	    			   <a href="">粤ICP备16070717号-1</a>
+	    			</p>
+	    			<p class="zhuce">CopyRight 2016-2019© rikee.com</p>
+	    		</div>
+	    		<div class="thirteen2">
+	    			<P>电话：400-0830-200</P>
+	    			<P>地址：深圳南山区南海大道海翔广场4F</P>
+	    		</div>
+	    		<div class="thirteen3">
+	    			<a href="" class="baidu"></a>
+	    			<img src="../img/foot_er.png" alt="" class="wxsm">
+	    			<a href="" class="weixin"></a>
+	    			<a href="" class="weibo"></a>
+	    		</div>
+	    	</div>
+	    </footer><!-- 底部 -->
+    </body>
+</html>

@@ -1,0 +1,445 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-05-17 16:41:24
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-09-13 00:11:39
+*/
+*{margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+a{
+      cursor: pointer;
+    text-decoration: none;
+}
+  .one{ width: 1214px;
+  		height: 2000px;
+	  	margin: 0px auto;
+	   }
+  .two{ width: 160px;
+  		height: 2000px;
+	    display: inline-block;
+	    float: left;
+	    position: fixed;
+	    left: 152px;
+	    top: 0px;}
+  .there{ width: 1054px;
+  		height: 2000px;
+        background: #blue;	
+	    display: inline-block;
+	    float: left;
+	    margin-left: 160px;
+	    }
+  .four{ width: 1050px;
+  		height: 80px;
+	  	background: red;
+        position: fixed;
+	    left: 312px;
+	    top: 0px;
+	    z-index: 1;}
+  .two .logo{ width： 160px;
+              height: 80px;    
+              cursor: pointer;
+  	       	  background: url(../img/logo.jpg) no-repeat center center #70bdb5;
+       }
+  .two h1 a{display: inline-block;
+            width: 160px;
+            height: 80px;}
+
+       /*左边栏 */
+  .two ul{
+  	background: #e3e6e1;
+  }
+  .two ul li a{
+                 display: block;
+                 padding: 5px 29px 5px 20px;
+                 text-decoration: none;
+
+               }
+  .two ul li a strong{
+  	font-size: 13px;
+  	
+  	color: #000
+  }        
+  .two ul li a span{
+  	font-size: 12px;
+  	color: #999999;
+  	display: block;
+  	font-weight: 400;
+  }
+.two ul .gdbj{
+  	background-color: #333;
+
+  }
+   .two ul .gdbj a strong{
+  	color: #fff;
+  }
+  .two1{
+  	width： 160px;
+    height: 80px;
+  	cursor: pointer;
+  	background: url(../img/dianwozixun.jpg) no-repeat center center;
+  	-o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+  }
+  .zengjiayanselei{
+  	background: #d7dbd4;
+  }
+  .zengjiayanselei1{
+  	background: #35384a;
+  	color: #fff;
+  }
+  .two ul .zengjiayanselei1 .ziti{
+  	color: #fff;
+  }
+  .two ul .zengjiayanselei1 .ziti1{
+  	color: #fff;
+  }
+  .two ul li a{
+  	color: red;
+  }
+
+  .two ul li a:hover{background: #333333;}
+   .two ul li a:hover strong{color: #fff;}
+   .two ul li a:hover span{color: #999999;}
+   .two1:hover{background: url(../img/qqzx2_hover.jpg) no-repeat center center; -o-transition: all 1s ;
+    transition: all 0.5s ease-in;} /* 覆盖原背景图片； */
+   /* 上边栏 */
+   .four ul{
+   	width: 872px;
+   	height: 80px;
+   	padding-right: 22px;
+   	background: #333;
+   }
+   .four ul li{
+   	           display: inline-block;
+   	           float: left;
+   	           height: 80px;
+
+   }
+  .four ul li a{ 
+                 display: block;
+                 padding: 20px 18px 20px 18px;
+                 text-decoration: none;
+
+               }
+.four ul li a span{
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+}
+.four ul li a p{
+	font-weight: bold;
+	color: #fff;
+}
+.four1{
+	width: 112px;
+	height: 58px;
+	float: left;
+	margin: 11px 22px;
+	
+}
+.four1 a span{
+	margin-left: 15px;
+}
+.four ul{float: left;}
+.four .four1 a{display: inline-block;
+               color: #fff;
+               font-size: 14px;
+               text-decoration: none;}
+.four .four1 a span{ font-size: 12px;
+                     text-align: center;
+                     }
+
+.four ul li a:hover{ background: #666;}
+
+/* 中心未固定内容 */
+
+.five{
+	margin-top: 80px;
+	width: 1050px;
+	height: 2000px;
+	margin-top: 80px;
+}
+
+.six{
+	position: relative;
+    left: 50%;
+    width: 1007px;
+    margin-left: -510px;
+    background-color: red;
+}
+.six-1{
+	font-size: 16px;
+    color: #646464;
+    line-height: 38px;
+    padding-bottom: 80px;
+    text-align: justify;
+}
+
+.six-1-1{
+  list-style: none outside none;
+}
+.jiyan_li {
+    border-bottom: solid 1px #ececec;
+    padding: 20px 0;
+}
+.jiyan_fimg {
+    width: 40%;
+    float: left;
+}
+.jiyan_rintro {
+    float: right;
+    width: 58%;
+}
+.jiyan_fimg img {
+    width: 100%;
+}
+.jiyan_rintro h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -10px;
+}
+.jiyan_rintro p {
+    color: #969696;
+    margin: 6px 0 23px;
+    line-height: 24px;
+}
+.news-article p {
+    font-size: 16px;
+}
+
+.col-left {
+    float: left;
+    width: 680px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.serven{
+	float: right;
+    width: 320px;
+    position: relative;
+}
+/* 输入框 */
+.sub-tel .callback{
+	padding: 20px 20px 25px;
+    background: #dfe2dc;
+}
+.sub-tel .callback .btn-wrap {
+    margin: 20px auto 0;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 5px;
+    width: 156px;
+}
+.sub-tel .callback .tip {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+.sub-tel .callback .input-wrap {
+    height: 40px;
+    border: 1px solid #666666;
+    padding-left: 40px;
+    background: url(../img/liaojieyunji-img/icon-callin.png)no-repeat 12px center;
+    overflow: hidden;
+    margin: 16px auto 0;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 160px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.sub-tel .callback .input-wrap input {
+    padding: 12px 0;
+    font-size: 14px;
+    border: none;
+    background: transparent;
+    color: #999999;
+}
+.sub-tel .callback .btn-wrap input.callbtn {
+    padding-bottom: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #525353;
+}
+.sub-tel .callback .btn-wrap .callbtn {
+    display: inline-block;
+    width: 154px;
+    height: 30px;
+    border: 0;
+    background: #70bdb5;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.sub-tel .callback .btn-wrap input.callbtn:hover {
+    background-color: #70bdb5;
+}
+/* 地图 */
+.sub-addr {
+    margin-top: 20px;
+}
+/* 动态 */
+.sub-news {
+    margin-top: 30px;
+}
+.sub-tit {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    padding: 6px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+    line-height: 20px;
+    font-weight: bold;
+}
+.sub-news .news-list {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin: 0;
+}
+.sub-news .news-list-li {
+    padding: 16px 15px 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    list-style: none;
+}
+.sub-news .news-list-li p {
+    white-space: nowrap;  /*不换行*/   
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sub-news .news-list-li .date {
+    font-size: 11px;
+    line-height: 24px;
+    margin-top: 2px;
+    color: #999999;
+}
+.sub-news a {
+    color: #666666;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+	background: #242424;
+	margin-top: 100px;
+	padding: 20px; 0px; 
+
+}
+footer .thirteen1{
+	display: inline-block;
+	margin-left: 300px;
+}
+footer .thirteen1 p span{
+	color: #fff;
+}
+footer .thirteen1 p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px	
+}
+footer .thirteen1 p a:hover{
+	text-decoration: underline;
+}
+.zhuce{
+	color: #a7b5b5;
+	font-size: 14px;
+}
+footer .thirteen2{
+	display: inline-block;
+	margin-left: 120px;
+}
+footer .thirteen2 p{
+    color: #fff;
+    font-size: 14px;
+}
+footer .thirteen3{
+	display: inline-block;
+	margin-left: 130px;
+
+}
+footer .thirteen3 a{
+	display: inline-block;
+	width: 29px;
+	height: 29px;
+	margin: 0px 3px;
+	cursor: pointer; 	
+}
+.baidu{
+	background: url(../img/baidu.png) no-repeat center center;
+
+}  
+.weixin{
+	background: url(../img/weixin.png) no-repeat center center;
+
+}
+.weibo{
+	background: url(../img/weibo.png) no-repeat center center;
+
+}
+.baidu:hover{
+	background: url(../img/baidu_h.png) no-repeat center center;
+
+}
+.weixin:hover{
+	background: url(../img/weixin_h.png) no-repeat center center;
+
+
+}
+.weibo:hover{
+	background: url(../img/weibo_h.png) no-repeat center center;
+
+}
+.wxsm{
+	position: absolute;
+    top: 1900px;
+    left: 1150px;
+    width: 160px;
+	display: none;
+
+
+}
+#anniu{  display: block;
+				width: 54px;
+				height: 54px;
+				border-radius: 50%;
+				background-color: #ccc;
+				background: url(../img/topback.png) center top no-repeat;
+				position: fixed;
+				z-index: 99999;
+				right: 2%;
+				top: 75%;
+				/* opacity: 0; */
+				display: none;
+				transition: all 1s;}
+	 	
+
+
+
+
+
+
+
+
+
+
+

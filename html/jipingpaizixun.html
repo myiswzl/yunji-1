@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/jipingpaizixun.css">
+        <script src="../js/jquery-1.11.1.js"></script>
+        <script>
+        $(function(){
+            /*微信扫码显示隐藏*/
+            $('.weixin').mouseenter(function(event) {
+            	$('.wxsm').show(100);
+            });
+             $('.weixin').mouseleave(function(event) {
+            	$('.wxsm').hide(100);
+            });             
+    /*下拉到一定位置按钮显现*/
+      $(window).scroll(function() {
+             var wh=$(window).height();
+                  /*窗口高度*/
+             var wt=$(window).scrollTop();
+        			/*窗口滚动了多少*/
+        			if(wt>wh){
+                          $('#anniu').fadeIn(300);
+                  }else{
+                  	$('#anniu').fadeOut(300);
+                  } 
+
+                });
+
+    /*点击回到顶部*/
+
+      $('#anniu').bind('click',function(){
+			$('html,body').animate({'scrollTop':'0px'},500);
+					});
+    /*点击加载更多内容*/
+    $('.eight').click(function(event) {
+    	$('.xianshi'). show(100);
+    });
+    /*图片缩放*/
+    /*$('.six ul li div a img').animate({'width':'450px','height':'277px'},500);
+        		});*/
+
+
+
+        	});
+        </script>
+
+
+
+    </head>
+    <body>
+	    <div class="one"><!-- 整体 -->
+	    	<div class="two"><!-- 左边栏 -->
+	    		<h1 class="logo"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/index.html"></a></h1>	
+	    		<ul>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jimingming.html"><strong class="name">吉命名</strong><span>中文命名&nbsp;英文命名</span></a></li>
+	    			<li class="zengjiayanselei gdbj"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jipingpaizixun.html"><strong>吉品牌咨询</strong><span>品牌战略&nbsp;品牌管理<br>企业文化</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jimoshi.html"><strong>吉模式</strong><span>商业模式&nbsp;招商模式<br>众筹模式&nbsp;定价模式</span></a></li>
+	    			<li class="zengjiayanselei"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibiaozhivi.html"><strong>吉标志VI</strong><span>LOGO&nbsp;VI&nbsp;吉祥物</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibaozhuang.html"><strong>吉包装</strong><span>包装&nbsp;互联网包装&nbsp;产品视频</span></a></li>
+	    			<li class="zengjiayanselei"><a href="#"><strong>吉网络</strong><span>网站建设&nbsp;设计&nbsp;运营&nbsp;微信开发运营&nbsp;H5</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jihuanjing.html"><strong>吉环境导示</strong><span>空间展厅&nbsp;环境&nbsp;导示</span></a></li>
+	    			<li class="zengjiayanselei1"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiziben.html"><strong class="ziti">吉资本</strong><span class="ziti1">路演视频+PPT+场景股权设计&nbsp;融资辅导</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jichuanbo.html"><strong>吉传播</strong><span>视频&nbsp;营销传播&nbsp;活动</span></a></li>
+	    		</ul>
+	    		<div class="two1"></div>
+	    	</div>
+	    	<div class="there"><!-- 右边内容 -->
+	    		<div class="four"><!-- 上边栏 -->
+	    			<ul>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/liaojieyunji.html"><span style="font-size: 14px;">一分钟</span><p>了解云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/pingpaitisheng.html"><span>云吉团队如何帮你</span><p>提升品牌</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiyan.html"><span>&nbsp</span><p>吉言</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>案例大全</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/laifangyunji.html"><span>眼见为实</span><p>来访云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/zhikansheji.html"><span>精彩设计</span><p>只看作品</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/lianxiwomen.html"><span>&nbsp</span><p>联系我们</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>动态</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/zhaopin.html"><span>&nbsp</span><p>招聘</p></a></li>
+	    			</ul>
+	    			<div class="four1"><a href="#"><strong>0755-88900080<br>0755-88900090</strong><br><span>一对一咨询服务</span></a></div>
+	    		</div>
+	    		<div class="five"><!-- 下边内容 -->
+	    		<div class="seven"><img src="../img/jipingpaizixun-img/zxbanner.jpg" alt="" width="1050px"></div>
+	    		<div class="six">
+	    		    <ol>
+	    		        <h2>吉品牌咨询做过什么？</h2>
+	    		        <span>What have we done?</span>
+	    		        <li>
+	    		        	<h2>基础调研：</h2>
+	    		        	<p>一、行业研究：1.大环境：政策化境/行业特征，2.大数据：行业数据/竞品数据/用户数据，3.发展预估。<br>二、商业机会评估：1.未来三年行业符合增长率，2.需求规模与需求程度，3.行业发展阶段与爆发式增长机会，4.距离产业规模的天花板空间，5.扩张发展效率，6.营销行动对发展的加速效率。</p>
+	    		        </li>
+	    		        <li>
+	    		        	<h2>营销咨询：商业模式、品牌战略</h2>
+	    		        	<p>一、商业模式：1.产品概念与用户体验，2.盈利模式与销售模式3.组织架构模式与团队建设。<br>二、品牌战略：1.主流价值观趋势，2.利益承诺，3.价值取向，4.互动文化，5.传播推广策略。</p>
+	    		        </li>
+	    		        <li>
+	    		        	<h2>快速扩张：</h2>
+	    		        	<p>一、商务拓展：1.股权设计，2.众筹运营，3.招商辅导。<br>二、资本：1.融资路演辅导，2.上市策略。</p>
+	    		        </li>
+	    		    </ol>
+	    			<ul>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G9392a.png" alt=""></a></div>
+	    					<div><a href="" class="name">洗车超人</a><p>洗车超人是品牌策划公司云吉又一个成功的品牌咨询，品牌定位的案例，以全球呵护式洗车的...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221GK3443.png" alt=""></a></div>
+	    					<div><a href="" class="name">品牌定位成功案例：麦克家族</a><p>麦客家族是一家用互联网思维主做营养早餐的技术创新企业，通过品牌咨询，品牌设计公司云...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G6163E.png" alt=""></a></div>
+	    					<div><a href="" class="name">三角毛巾</a><p>三角牌毛巾是上海的老品牌，经过品牌策划公司云吉品牌咨询、品牌定位后，使该品牌形象升...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G910348.png" alt=""></a></div>
+	    					<div><a href="" class="name">她梵</a><p>TURFUN她梵携手品牌设计公司云吉，通过品牌咨询对品牌进行精准的品牌定位，以民族品牌为出...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221H020337.png" alt=""></a></div>
+	    					<div><a href="" class="name">伊德莱克</a><p>伊德莱克对品牌设计公司云吉进行企业品牌咨询后，云吉的帮助它完成了网站设计，品牌设计...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221H04J47.png" alt=""></a></div>
+	    					<div><a href="" class="name">壹品</a><p>壹品是云吉吉品牌咨询服务中的一个企业品牌咨询的成功案例，通过品牌咨询，云吉帮助壹品...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221H254161.png" alt=""></a></div>
+	    					<div><a href="" class="name">云吉良品</a><p>云吉良品 赋予你更好的生活 云集良品 深圳云吉良品电子商务有限公司是一家致力于打造品质...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F510151442915.png" alt="" width="445px"></a></div>
+	    					<div><a href="" class="name">Roysiss润岁</a><p>Roysiss润岁 ---许岁月以健康 名门望族 Roysiss传承与瑞士精准医疗健康管理机构，该机构在瑞士和...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G5511B.png" alt=""></a></div>
+	    					<div><a href="" class="name">十点一刻</a><p>十点一刻 早晚1015，开启海淘新生活刻不容缓 刻不容缓 十点一刻聚焦于跨境电商领域，致力于...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221H211420.png" alt=""></a></div>
+	    					<div><a href="" class="name">CICI公主</a><p>Princess Cici茜茜公主 中国动漫新锐主力 机遇 早在2012年，全球动漫产业总产值已超7000亿美元，...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221GG0240.png" alt=""></a></div>
+	    					<div><a href="" class="name">美林湖</a><p>美林湖 你我的一生之城 抓住地产火爆契机 不管怎么调控房价，都只有一个结果：只会升高不...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221FT1414.png" alt=""></a></div>
+	    					<div><a href="" class="name">奇致激光</a><p>Miralase奇致激光 美是一道光 契机 奇致激光中国以生产和经营激光和电光类医疗及美容设备为主...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221GT4W3.png" alt=""></a></div>
+	    					<div><a href="" class="name">茶野</a><p>茶野 更懂东方 来自东方 茶野以变革传统洗护产业为使命，淘汰对人体造成伤害的洗护产品，...</p></div>
+	    				</li>
+	    				<li>
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F42QP945I5.png" alt=""></a></div>
+	    					<div><a href="" class="name">开心娃娃机</a><p>开心娃娃机互联时代 创新生活 互联时代 创新生活 互联网时代，云吉用移动终端机结合现实抓...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F42Q61934156.png" alt=""></a></div>
+	    					<div><a href="" class="name">琊泰</a><p>ATTAIN琊泰 品质追求 极致生活 品质追求 极致生活 ATTAIN 琊泰通过让中国男士的品质生活变得更...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G11Q46.png" alt=""></a></div>
+	    					<div><a href="" class="name">泽越佳护</a><p>泽越佳护 最佳护理 家的守护 最佳护理 家的守护 泽越佳护以护理健康的家为初衷，以棉代替木...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G3040-L.png" alt=""></a></div>
+	    					<div><a href="" class="name">云吉环保</a><p>云吉环保 云吉环保被授予2016年亚洲环保投资峰会最具投资价值环保企业 至道在微 天人合一...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221F9360-L.png" alt=""></a></div>
+	    					<div><a href="" class="name">布之布</a><p>布之布艺术惊艳生活 情怀落地生根 东方情节 蓬荜生辉 布之布是一家以传统手工布艺为基础，...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221GQ1642.png" alt=""></a></div>
+	    					<div><a href="" class="name">凯蕾贝贝</a><p>凯蕾贝贝 全球青少年5P理论行为习惯教育领导者 童心与快乐 教育的本质追求 回归自然，回归...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G4000-L.png" alt=""></a></div>
+	    					<div><a href="" class="name">一颗桂花树</a><p>一棵桂花树 八月香满人间 千金一诺 以信立世 桂花是和平、吉祥、爱情、 高尚的象征，古代人...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G01Y28.png" alt=""></a></div>
+	    					<div><a href="" class="name">安洁乐</a><p>安洁乐 Angelo=angle 虚怀若谷 极致追求 安洁乐一直坚持天然有机环保品牌理念，专心致力于研发...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221G0550-L.png" alt=""></a></div>
+	    					<div><a href="" class="name">西瑞维尔</a><p>西瑞维尔 致力成为全球最安全的保健品品牌 源于自然 赛瑞维尔的产品原料来自世界上环境最...</p></div>
+	    				</li>
+
+	    				<li style="display: none;" class="xianshi">
+	    					<div><a href=""><img src="../img/jipingpaizixun-img/1-1F4221H231500.png" alt=""></a></div>
+	    					<div><a href="" class="name">黑金钻</a><p>Hikee黑金钻 有我就有路 走近黑金钻 深圳市黑金钻轮胎有限公司成立于2009年，是世界领先专业...</p></div>
+	    				</li>
+
+	    			</ul>
+	    			<div class="eight">
+	    			<a href="">展示更多案例</a>
+	    				
+	    			</div>
+	    		</div>
+
+	    		</div>
+	    	</div>
+	    </div>
+	    <footer>
+	        <span id="anniu"></span>
+	    	<div class="thirteen">
+	    		<div class="thirteen1">
+	    			<p><a href="">服务条款</a>&nbsp;<span>|</span>
+	    			   <a href="">隐私政策</a>&nbsp;<span>|</span>
+	    			   <a href=""> 云吉天下</a>&nbsp;<span>|</span>
+	    			   <a href="">粤ICP备16070717号-1</a>
+	    			</p>
+	    			<p class="zhuce">CopyRight 2016-2019© rikee.com</p>
+	    		</div>
+	    		<div class="thirteen2">
+	    			<P>电话：400-0830-200</P>
+	    			<P>地址：深圳南山区南海大道海翔广场4F</P>
+	    		</div>
+	    		<div class="thirteen3">
+	    			<a href="" class="baidu"></a>
+	    			<img src="../img/foot_er.png" alt="" class="wxsm">
+	    			<a href="" class="weixin"></a>
+	    			<a href="" class="weibo"></a>
+	    		</div>
+	    	</div>
+	    </footer><!-- 底部 -->
+    </body>
+</html>

@@ -1,0 +1,543 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-05-17 16:41:24
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-05-25 17:20:16
+*/
+*{margin: 0px;
+  padding: 0px;
+  list-style: none;}
+  .one{ width: 1214px;
+  		height: 2000px;
+	  	margin: 0px auto;
+	  	/* background: #999; */
+	   }
+  .two{ width: 160px;
+  		height: 2000px;
+	  	background: #pink;
+	    display: inline-block;
+	    float: left;
+	    position: fixed;
+	    left: 152px;
+	    top: 0px;}
+  .there{ width: 1054px;
+  		height: 2000px;
+        background: #blue;	
+	    display: inline-block;
+	    float: left;
+	    margin-left: 160px;
+	    }
+  .four{ width: 1050px;
+  		height: 80px;
+	  	background: red;
+        position: fixed;
+	    left: 312px;
+	    top: 0px;
+	    z-index: 1;}
+  .two .logo{ width： 160px;
+              height: 80px;    
+              cursor: pointer;
+  	       	  background: url(../img/logo.jpg) no-repeat center center #70bdb5;
+
+       }
+
+
+       /*左边栏 */
+  .two ul{
+  	background: #e3e6e1;
+  }
+  .two ul li a{
+                 display: block;
+                 padding: 5px 29px 5px 20px;
+                 text-decoration: none;
+
+               }
+  .two ul li a strong{
+  	font-size: 13px;
+  	
+  	color: #000
+  }        
+  .two ul li a span{
+  	font-size: 12px;
+  	color: #999999;
+  	display: block;
+  	font-weight: 400;
+  }
+  .two1{
+  	width： 160px;
+    height: 80px;
+  	cursor: pointer;
+  	background: url(../img/dianwozixun.jpg) no-repeat center center;
+  	-o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+  }
+  .zengjiayanselei{
+  	background: #d7dbd4;
+  }
+  .zengjiayanselei1{
+  	background: #35384a;
+  	color: #fff;
+  }
+  .two ul .zengjiayanselei1 .ziti{
+  	color: #fff;
+  }
+  .two ul .zengjiayanselei1 .ziti1{
+  	color: #fff;
+  }
+  .two ul li a{
+  	color: red;
+  }
+
+  .two ul li a:hover{background: #333333;}
+   .two ul li a:hover strong{color: #fff;}
+   .two ul li a:hover span{color: #999999;}
+   .two1:hover{background: url(../img/qqzx2_hover.jpg) no-repeat center center; -o-transition: all 1s ;
+    transition: all 0.5s ease-in;} /* 覆盖原背景图片； */
+   /* 上边栏 */
+   .four ul{
+   	width: 872px;
+   	height: 80px;
+   	padding-right: 22px;
+   	background: #333;
+   }
+   .four ul li{
+   	           display: inline-block;
+   	           float: left;
+   	           height: 80px;
+
+   }
+  .four ul li a{ 
+                 display: block;
+                 padding: 20px 18px 20px 18px;
+                 text-decoration: none;
+
+               }
+.four ul li a span{
+	font-size: 12px;
+	font-weight: bold;
+	color: #999999;
+}
+.four ul li a p{
+	font-weight: bold;
+	color: #fff;
+}
+.four1{
+	width: 112px;
+	height: 58px;
+	float: left;
+	margin: 11px 22px;
+	
+}
+.four1 a span{
+	margin-left: 15px;
+}
+.four ul{float: left;}
+.four .four1 a{display: inline-block;
+               color: #fff;
+               font-size: 14px;
+               text-decoration: none;}
+.four .four1 a span{ font-size: 12px;
+                     text-align: center;
+                     }
+
+.four ul li a:hover{ background: #666;}
+
+/* 中心未固定内容 */
+
+.five{
+	margin-top: 80px;
+	width: 1050px;
+	height: 2000px;
+	margin-top: 80px;
+}
+.seven{
+	width: 1050px;
+	height: 461px;
+	cursor: pointer;
+	background: pink;
+	overflow: hidden;
+	position: relative;
+}
+.seven ul{
+    width: 7000px;
+    height: 461px;
+    position: relative;
+
+}
+.seven ul li{
+	float: left;
+}
+.seven ol{
+	width: 180px;
+	height: 22px;
+	position: absolute;
+	right: 0px;
+	bottom: 15px;
+}
+.seven ol li{
+	    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* border: 1px solid rgba(255,255,255,0.5); */
+    background-color: rgba(55,55,55,0.8);
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.quan{
+	background: rgba(47,181,174,0.8) !important;
+}
+.eight{
+	width: 1050px;
+	height: 152px;
+	margin: 7px 0px 0px 6px;
+
+}
+.eight ul li{
+	width: 261px;
+    height: 151px;
+    float: left;
+
+}
+.eight ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 0px 0px 16px;
+	background-size: 102%;
+}
+.eight ul li a p{ text-decoration: none;
+                  color: #fff;}
+.texte-1{
+	font-size: 24px;
+}
+.lests-1{
+	background: url(../img/lbanner01.jpg) no-repeat center center;
+	background-size: 102%;
+}
+.lests-2{
+	background: url(../img/lbanner02.jpg) no-repeat center center;
+	background-size: 102%;
+}
+.lests-3{
+	background: url(../img/lbanner03.jpg) no-repeat center center;
+	background-size: 102%;
+}
+.lests-4{
+	background: url(../img/lbanner04.jpg) no-repeat center center;
+	background-size: 102%;
+}
+.eight ul li:hover{background: url(../img/lbanner05.jpg) no-repeat center center;
+                   background-size: cover;
+                   transition: all 0.2s ease-in;
+                   cursor: pointer;}
+.nine{ 
+	width: 1044px;
+	margin: 7px 0px 0px 6px;
+	height: 400px;
+    background: url(../img/P3bj.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.nine ul{width: 8800px;
+	    position: absolute;
+        left: 0px;
+        bottom: 230px;
+        transition: all 1s;
+}
+.nine ul li{
+	float: left;
+    width: 1044px;
+    height: 130px;
+}
+.nine ul li div{
+	    float: left;
+        width: 1044px;
+    	height: 170px;
+}
+.nine ul li div a{text-decoration: none;
+	              color: #fff;
+	              display: block;
+	              margin: 0px auto;
+	              text-align: center;
+
+}
+.nine ul li div a p{ margin: 20px 0px;}
+.nine ul li div a img{
+						margin: 0 10px;
+}
+.nine-text{
+	font-size: 42px;
+}
+.nine ol{position: absolute;
+	    width: 100%;
+	    bottom: 45px;
+	    left: 0px;
+	    text-align: center;
+	    font-size: 0px;
+}
+.nine ol li{
+	width: 12px;
+    height: 12px;
+    background-color: #535354;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.btn2{ width: 50px;
+	height: 50px;
+	background-color: #808080;
+    border-radius: 50%;
+    position: absolute;
+    top: 52%;
+    right: 0px;
+    margin-top: -0px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.btn1{ width: 50px;
+	height: 50px;
+	background-color: #808080;
+    border-radius: 50%;
+    position: absolute;
+    top: 52%;
+    margin-top: -0px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn2 a,.btn1 a{
+	display: inline-block;
+	text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    width: 100%;
+    height: 100%;	
+}
+.quan1{
+	background-color: #9c9c9d !important;
+}
+.ten{
+	width: 1044px;
+	margin: 7px 0px 0px 6px;
+	height:50px;
+}
+.ten p{
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: 18px
+}
+.eleven{
+	width: 1044px;
+	margin-left: 6px;
+	height: 526px;
+	background: #f5f5f5;
+    border-top: 1px solid #333;
+}
+.eleven ul{
+	padding-top: 20px;
+	height: 188px;
+}
+.eleven ul li{
+	float: left;
+	margin-right: 12px;
+	overflow: hidden;	
+}
+.eleven ul li a{ 
+	text-decoration: none;
+	font-size: 14px;
+}
+.eleven ul li a span{
+	background-color: #363942;
+	display: block;
+	color: #fff;
+	padding: 8px 10px;
+
+}
+
+.eleven ul .list-1{
+	margin-right: 0px;
+}
+.eleven ul li a:hover{ text-decoration: underline;
+                       color: #fff;}
+.eleven ul .list-2{
+	margin-right: 0px;
+	margin-left: 16px;
+}
+.twelve{ width: 1044px;
+	margin-left: 6px;
+	height: 380px;	
+}
+.twelve>p{
+	font-weight: bold;
+	padding-top: 40px;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+	
+.twelve ul{
+	padding-top: 20px;
+	height: 188px;
+	border-top: 1px solid #ebedea;
+}
+.twelve ul li{
+	float: left;
+	margin-right: 12px;
+	overflow: hidden;	
+}
+.twelve ul li a{ 
+	text-decoration: none;
+	font-size: 14px;
+
+}
+.twelve ul li a strong{
+	display: block;
+	padding: 10px 0px 10px 5px;
+	position: relative;
+}
+.twelve ul li a div{
+    width: 39px;
+    height: 36px;
+    border: 2px solid #e2e2e2;
+    margin-left: 10px;	
+    position: relative;	
+}
+.twelve ul li a .month{
+	color: #fff;;
+    font-size: 12px;
+    line-height: 1;
+}
+.twelve ul li a .slash{
+	position: absolute;
+    top: 6px;
+    left: 10px;
+    font-size: 20px;
+    line-height: 1;
+    color: #e2e2e2;
+    font-style: italic;
+}
+.twelve ul li a .day{
+	position: absolute;
+    top: 16px;
+    left: 14px;
+    font-size: 20px;
+    line-height: 1;
+    color: #e2e2e2;    
+}
+.twelve ul li a p{
+	position: absolute;
+	right: 8px;
+	bottom: 11px;
+	color: #fff;
+}
+.twelve ul li a p:hover{ text-decoration: underline;
+                      }
+
+footer{
+	background: #242424;
+	margin-top: 68px;
+	padding: 20px; 0px; 
+
+}
+footer .thirteen1{
+	display: inline-block;
+	margin-left: 300px;
+}
+footer .thirteen1 p span{
+	color: #fff;
+}
+footer .thirteen1 p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px	
+}
+footer .thirteen1 p a:hover{
+	text-decoration: underline;
+}
+.zhuce{
+	color: #a7b5b5;
+	font-size: 14px;
+}
+footer .thirteen2{
+	display: inline-block;
+	margin-left: 120px;
+}
+footer .thirteen2 p{
+    color: #fff;
+    font-size: 14px;
+}
+footer .thirteen3{
+	display: inline-block;
+	margin-left: 130px;
+
+}
+footer .thirteen3 a{
+	display: inline-block;
+	width: 29px;
+	height: 29px;
+	margin: 0px 3px;
+	cursor: pointer; 	
+}
+.baidu{
+	background: url(../img/baidu.png) no-repeat center center;
+
+}  
+.weixin{
+	background: url(../img/weixin.png) no-repeat center center;
+
+}
+.weibo{
+	background: url(../img/weibo.png) no-repeat center center;
+
+}
+.baidu:hover{
+	background: url(../img/baidu_h.png) no-repeat center center;
+
+}
+.weixin:hover{
+	background: url(../img/weixin_h.png) no-repeat center center;
+
+
+}
+.weibo:hover{
+	background: url(../img/weibo_h.png) no-repeat center center;
+
+}
+.wxsm{
+	position: absolute;
+    top: 1882px;
+    left: 1156px;
+    width: 160px;
+	display: none;
+
+
+}
+#anniu{  display: block;
+				width: 54px;
+				height: 54px;
+				border-radius: 50%;
+				background-color: #ccc;
+				background: url(../img/topback.png) center top no-repeat;
+				position: fixed;
+				z-index: 99999;
+				right: 2%;
+				top: 75%;
+				/* opacity: 0; */
+				display: none;
+				transition: all 1s;}
+	 	
+
+
+
+
+
+
+
+
+
+
+

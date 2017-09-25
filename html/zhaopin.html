@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/zhaopin.css">
+        <script src="../js/jquery-1.11.1.js"></script>
+        <script>
+        $(function(){
+            /*微信扫码显示隐藏*/
+            $('.weixin').mouseenter(function(event) {
+            	$('.wxsm').show(100);
+            });
+             $('.weixin').mouseleave(function(event) {
+            	$('.wxsm').hide(100);
+            });             
+    /*下拉到一定位置按钮显现*/
+      $(window).scroll(function() {
+             var wh=$(window).height();
+                  /*窗口高度*/
+             var wt=$(window).scrollTop();
+        			/*窗口滚动了多少*/
+        			if(wt>wh){
+                          $('#anniu').fadeIn(300);
+                  }else{
+                  	$('#anniu').fadeOut(300);
+                  } 
+
+                });
+
+    /*点击回到顶部*/
+
+      $('#anniu').bind('click',function(){
+			$('html,body').animate({'scrollTop':'0px'},500);
+					});
+    /*点击加载更多内容*/
+    $('.eight').click(function(event) {
+    	$('.xianshi'). show(100);
+    });
+    /*图片缩放*/
+    /*$('.six ul li div a img').animate({'width':'450px','height':'277px'},500);
+        		});*/
+
+
+
+        	});
+        </script>
+
+
+
+    </head>
+    <body>
+	    <div class="one"><!-- 整体 -->
+	    	<div class="two"><!-- 左边栏 -->
+	    		<h1 class="logo"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/index.html"></a></h1>	
+	    		<ul>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jimingming.html"><strong class="name">吉命名</strong><span>中文命名&nbsp;英文命名</span></a></li>
+	    			<li class="zengjiayanselei"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jipingpaizixun.html"><strong>吉品牌咨询</strong><span>品牌战略&nbsp;品牌管理<br>企业文化</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jimoshi.html"><strong>吉模式</strong><span>商业模式&nbsp;招商模式<br>众筹模式&nbsp;定价模式</span></a></li>
+	    			<li class="zengjiayanselei"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibiaozhivi.html"><strong>吉标志VI</strong><span>LOGO&nbsp;VI&nbsp;吉祥物</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jibaozhuang.html"><strong>吉包装</strong><span>包装&nbsp;互联网包装&nbsp;产品视频</span></a></li>
+	    			<li class="zengjiayanselei"><a href="#"><strong>吉网络</strong><span>网站建设&nbsp;设计&nbsp;运营&nbsp;微信开发运营&nbsp;H5</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jihuanjing.html"><strong>吉环境导示</strong><span>空间展厅&nbsp;环境&nbsp;导示</span></a></li>
+	    			<li class="zengjiayanselei1 gdbj"><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiziben.html"><strong class="ziti">吉资本</strong><span class="ziti1">路演视频+PPT+场景股权设计&nbsp;融资辅导</span></a></li>
+	    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jichuanbo.html"><strong>吉传播</strong><span>视频&nbsp;营销传播&nbsp;活动</span></a></li>
+	    		</ul>
+	    		<div class="two1"></div>
+	    	</div>
+	    	<div class="there"><!-- 右边内容 -->
+	    		<div class="four"><!-- 上边栏 -->
+	    			<ul>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/liaojieyunji.html"><span style="font-size: 14px;">一分钟</span><p>了解云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/pingpaitisheng.html"><span>云吉团队如何帮你</span><p>提升品牌</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/jiyan.html"><span>&nbsp</span><p>吉言</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>案例大全</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/laifangyunji.html"><span>眼见为实</span><p>来访云吉</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/zhikansheji.html"><span>精彩设计</span><p>只看作品</p></a></li>
+	    				<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/yunji/html/lianxiwomen.html"><span>&nbsp</span><p>联系我们</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>动态</p></a></li>
+	    				<li><a href="#"><span>&nbsp</span><p>招聘</p></a></li>
+	    			</ul>
+	    			<div class="four1"><a href="#"><strong>0755-88900080<br>0755-88900090</strong><br><span>一对一咨询服务</span></a></div>
+	    		</div>
+	    		<div class="five"><!-- 下边内容 -->
+					<div class="six">
+						<div class="six-1 col-left">
+							<div class="editor art_job">
+								<img alt="" src="../img/zhaopin-img/1-1609261Q445357.jpg" width="100%">
+								<div class="joins_job">
+								 <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">新媒体运营</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                新媒体运营策划，灵魂写手</div><br>
+								            <div>
+								                1、文案能力突出，思维活跃，能独立撰写微信公众号文章；</div>
+								            <div>
+								                2、具有策划能力，负责日常微博微信选题、活动策划等；</div>
+								            <div>
+								                3、对热点敏感，擅长结合，紧跟热点，网感好，创意能力突出；</div>
+								            <div>
+								                4、具有全案策划力，能够进行品牌整合传播方案、事件营销方案的撰写；</div>
+								            <div>
+								                5、对媒体属性了解，擅长利用媒体做出具有效果的传播执行；</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、管理并运营微信、微博等自媒体平台，进行内容编辑、审核、发布；</div>
+								            <div>
+								                2、负责维护社交媒体平台的用户体验，提升用户数量及品牌忠诚度，了解用户需求，收集用户反馈，分析用户行为及需求；</div>
+								            <div>
+								                3、即时掌握新闻热点，响应社会、娱乐、网络热点话题，能够完成专题策划、编辑制作；</div>
+								            <div>
+								                4、负责品牌整合传播方案、事件营销方案的撰写；</div>
+								        </dd>
+
+								    </dl>
+
+
+								        <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">文案策划</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责集团动向，媒体曝光性文章的撰写。</div>
+								            <div>
+								                2、负责公司各类软文、深度访问和公关活动方案的相关报告等稿件的撰写。</div>
+								            <div>
+								                3、捕捉重大网络事件、时效新闻或是其他热点事件，将网络事件结合公司推广需求做成网络专题传播。</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、能够具备恰如其分的文字表现能力；</div>
+								            <div>
+								                2、思维敏捷，洞察力强，文字功底扎实，语言表达能力强；</div>
+								            <div>
+								                3、新闻学、传播学、中文、经济管理类相关专业优先</div>
+								        </dd>
+
+								    </dl>
+
+								<dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name"> 品牌策划</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                1、 负责项目的品牌定位、营销策划方案， 给予前期提案、策略说明及后期结案报告等服务；</div>
+								            <div>
+								                2、熟悉广告创作流程，有敏锐的创作嗅觉和精准的创意表现力，具备独立思考和分析能力，对问题有自己独特的见解；</div>
+								            <div>
+								                3、协助项目组进行品牌提案，保证工作的顺利推进；</div>
+								            <div>
+								                4、执行并监督所负责项目的创意构思和文案；</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、新闻学、传播学、中文、经济管理类相关专业，本科以上学历；</div>
+								            <div>
+								               2、熟悉品牌策划工作，一年以上市场策划及文案工作经验，有整合推广成功案例者优先；</div>
+								            <div>
+								                3、能够准确捕捉品牌、项目的亮点，具备恰如其分的文字表现能力；</div>  
+								            <div>
+								               4、熟悉专业创意方法，思维敏捷，洞察力强，文字功底扎实，语言表达能力强；</div>
+								            <div>
+								               5、能独立完成项目、广告等推广文案的撰写。</div>
+								        </dd>
+
+								    </dl>
+
+
+								    <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">项目助理</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                此职位单独服务于公司新项目保健品相关项目，为此项目第一负责人。
+								            </div>
+								            <div>
+								                1、2年以上项目助理或市场助理相关经验；</div>
+								            <div>
+								                2、头脑灵活，机灵上进，行动、配合及执行力强； </div>
+								            <div>
+								                3、负责公司所有此项目的业务往来，资料收集；</div>
+								            <div>
+								                4、领导交办的其他事情。</div>
+								        </dd>
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、五官端正，口齿伶俐。热情大方，应变能力强。</div>
+								            <div>
+								                2、医学、药学专业者优先，有保健品行业经验者优先。</div>
+								            <div>
+								                3、工作积极主动，踏实肯干，具有较好的服务意识和亲和力。</div>
+								        </dd>
+
+								    </dl>
+
+
+								 <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name"> 网络推广专员</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责律所网站、微信等公众平台的建设、日常维护及更新；</div>
+								            <div>
+								                2、负责运用各种网站推广方法，提高网站关键词排名，网站自然排名，提高网站浏览量；</div>
+								            <div>
+								                3、能够深入挖掘和分析网友使用习惯、情感及体验感受，即时掌握新闻热点，完成专题及活动策划；</div>
+								            <div>
+								                4、监控公司百度、头条、58同城等推广账户，不断挖掘新的有商业价值的推广关键词，添加、更新推广创意，分析推广数据，调整关键词价格；</div>
+								            <div>
+								                5、监控公司百度、头条、58同城等推广账户，不断挖掘新的有商业价值的推广关键词，添加、更新推广创意，分析推广数据，调整关键词价格；</div>
+								            <div>
+								               6、负责传播计划的执行，能够与公司其他部门及团队融洽合作，顺利推进整体项目进程；</div>
+								            <div>
+								                7、协调公司内其他部门，完成方案策划、内容制作等相关工作。</div>   
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、从事过网络销售相关工作经验；具备SEO网络优化经验，熟悉百度，360，搜狗等搜索引擎的排名规律。</div>
+								            <div>
+								                2、良好的沟通能力，团队协作能力以及执行力，具备优秀的销售话术，具备演讲能力，有良好的文字功底； </div>
+								            <div>
+								                3、熟悉网站排名及提升排名的各种优化措施，了解搜索引擎优化、交换链接、网站检测的相关技术性推广。 </div>  
+								        </dd>
+
+								    </dl>
+
+
+
+								    <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">php后端工程师</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责网站、商城的核心代码开发及维护工作。负责编写开发文档和产品使用说明；</div>
+								            <div>
+								                2、负责站点及移动端接口API的开发及维护工作，并为商城移植移植APP提供支持；</div>
+								            <div>
+								                3、能对自己编写的代码进行自测并保证一定的代码质量。进行软件详细设计，代码编写，单元测试，集成测试等；</div>
+								            <div>
+								                4、进行软件代码的维护和改进工作，完成部门领导安排的其它研发相关工作；</div>
+								            <div>
+								                5、参与项目后端的开发、维护、改进。配合项目团队及美工改善网站的整体用户体验；</div>
+								            <div>
+								                6、对已有系统在可用性、性能、可运维性上持续优化；</div>
+								              <div>
+								                7、参与公司项目的讨论研究，对功能模块设计方案提出自己的解决方案，组织项目执行；</div>
+								            <div>
+								                8、有微信公众号开发经验，会配置相关接口：如微信卡卷、微信支付、微信红包、模版消息、公众号一键授权等，有第三方支付接口（支付宝、银行）等优先；</div>
+								        </dd>
+
+								        <dd class="job_require">
+
+								            <span>任职条件</span><br>
+
+								            <div>
+								                1、计算机相关专业，2年以上PHP开发经验，熟悉微信公众平台开发流程，能独立承担程序的架构设计与开发工作者优先；</div>
+								            <div>
+								                2、熟悉至少一种PHP框架，如 ThinkPHP、YII framework、zend framework、CI、larvel等，并精通微擎电商开源系统；</div>
+								            <div>
+								                3、拥有良好的代码编写习惯，结构清晰，命名规范，逻辑性强，冗余率低，易读易维护，熟悉SVN代码托管程序；</div>
+								            <div>
+								                4、精通任意一款数据库，如MySQL、SQL Server、MongoDB；</div>
+								            <div>
+								                5、掌握基本的前端开发，如HTML、CSS、JQuery等；</div>
+								            <div>
+								                6、掌握Linux服务器基本操作，熟悉LNMP配置等；</div>
+								        </dd>
+
+								    </dl>
+
+								            <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">空间设计师</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                1、根据公司产品风格和定位，提出展示厅的整体策划方案；</div>
+								            <div>
+								                2、结合企业的营销策略和发展方向，确定项目的装修风格；</div>
+								            <div>
+								                3、负责收集装修相关素材，为图纸的绘制提供资料；</div>
+								            <div>
+								                4、能够完成图纸的绘制（效果图、施工图、节点图）；</div>
+								            <div>
+								                5、主动与上级沟通设计方案，并及时进行修改和完善；</div>
+								            <div>
+								                6、掌握装修行情，收集信息，完成装修预算；</div>
+								            <div>
+								                7、负责现场施工、监督、验收；</div>
+								            <div>
+								                8、负责店面标准模型完善和道具优化；</div>
+								            <div>
+								                9、为不同的加盟商、代理商提供店面装修方案；</div>
+								            <div>
+								                10、能够适应出差；</div>
+								            <div>
+								                11、完成公司日常的平面设计工作；</div>
+								            <div>
+								                12、完成领导交代的其它工作；</div>
+								            <div>
+								                13、有广告公司工作经验的优先考虑；</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、室内外设计、装饰装修设计、平面设计或美术等相关专业；</div>
+								            <div>
+								                2、熟练掌握AutoCad、3dsmax、Photoshop、AI等绘图软件；</div>
+								            <div>
+								                3、对店装展示的施工工艺、结构及材质有一定了解，会做预算；</div>
+								            <div>
+								                4、主要制作服装店的道具大样图及施工详图及效果图；</div>
+								            <div>
+								                5、良好的沟通能力，诚信敬业；</div>
+								        </dd>
+
+								    </dl>
+
+								            <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">平面设计师</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责策划活动平面创意设计、VI、CI等设计；</div>
+								            <div>
+								                2、具有较强的创意与设计能力，根据项目需求提供最满意的创意设计；</div>
+								            <div>
+								                3、具有团队合作精神和对工作的积极态度；</div>
+								            <div>
+								                4、及时完成设计工作，并且保证工作质量；</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、2年以上设计相关工作经验；</div>
+								            <div>
+								                2、精通Photoshop、Ai、Flash、Coreldraw等设计软件，同时能熟悉使用3D max、 AutoCad、Maya等3D软件者优先考虑；</div>
+								            <div>
+								                3、思维活跃，构思大胆创新，有较强创意设计能力和敏锐色彩感及搭配能力；</div>
+								            <div>
+								                4、设计功底扎实，能准确完整的表达自己的设计思想，能独立完成设计，有美术绘画功底优先考虑；</div>
+								            <div>
+								                5、为人踏实稳重、工作细心、责任心强、良好的沟通及协调能力，具备良好的学习与工作心；</div>
+								            <div>
+								                6、有广告公司工作经验的优先考虑；</div>
+								        </dd>
+
+								    </dl>
+
+
+								    <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">营养师</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责对进行检测的客户进行健康评估，管理和指导；</div>
+								            <div>
+								                2、独立制定编写会员营养指导方案；</div>
+								            <div>
+								                3、根据客户需求提供营养健康咨询服务；（包含面询，网络询问，电话询问等形式）</div>
+								            <div>
+								                4、在客户执行健康管理方案的过程中，协调跟踪、反馈、评估健康管理方案的效果;</div>
+								            <div>
+								                5、负责客户健康档案的原始记录、日常维护和跟踪管理;</div>
+								            <div>
+								            6、随时响应客户的健康需求，协调和调动内部各种专业资源，为客户提供全方位的健康管理服务。</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、具备健康评估、健康指导、健康教育、健康服务的基本能力；</div>
+								            <div>
+								                2、持有营养师、健康管理师资格证者优先；</div>
+								            <div>
+								                3、具有良好的服务意识和亲和力；较强的沟通能力、语言表达能力；</div>
+								            <div>
+								                4、能运用医学、营养、心理、运动、环境等相关专业知识为客户提供健康咨询和管理；</div>
+								        </dd>
+
+								    </dl>
+
+
+
+								<dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name"> 采购专员</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                1、物料及设备采购工作：包括询/比价、签定采购合同、验收、评估及反馈汇总工作；</div>
+								            <div>
+								                2、根据公司各部门开具的采购工单，及时沟通了解需求情况，选择合适的渠道进行采购；</div>
+								            <div>
+								                3、与供应商保持良好的沟通，并进行合理的价格谈判，以利控制项目成本；</div>
+								            <div>
+								                4、负责多渠道供应商的拓展；</div>
+								            <div>
+								                负责采购订单制作、确认、安排发货及跟踪到货日期；</div>
+								            <div>
+								               6、采购清单的统计。</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、熟悉采购流程，良好的沟通能力、谈判能力和成本意识；</div>
+								            <div>
+								               2、工作细致认真，责任心强，思维敏捷，具有较强的团队合作精神；</div>
+								            <div>
+								                3、有良好的职业道德和素养，能承受一定的、工作压力；</div>  
+								            <div>
+								                4、从事采购及相关工作1-2年的工作经验。</div>
+								        </dd>
+
+								    </dl>
+
+								       
+
+								        <dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(255, 255, 255); border-left-color: initial; border-image: initial; text-size-adjust: none; outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">网络推广主管</dt>
+
+								        <dd class="job_ask">
+
+								            <span>职位描述</span><br>
+								            <div>
+								                1、微信、微博平台的日常各项推广操作与维护，提高公司知名度；</div>
+								            <div>
+								                2、整理每日、周、月监控的数据：流量数据、营销数据、交易数据、产品管理、客户管理。并根据数据分析进行反馈，汇报上级，参与调整运营及推广计划；</div>
+								            <div>
+								                3、制定部门工作任务，并量化、细化，各岗位协调并完成各项工作；</div>
+								            <div>
+								                4、市场推广等的创意和文案，并进行效果评估，提出改进方案；</div>
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、大专及以上学历；</div>
+								            <div>
+								                2、具有1年以上互联网行业推广工作经验；</div>
+								            <div>
+								                3、熟悉网络推广的有效方法和手段；</div>
+								            <div>
+								                4、具备良好的团队合作精神、高度的责任感、善于沟通；</div>
+								        </dd>
+
+								    </dl>
+
+								<dl style="margin: 0px; padding: 30px 0px; border-width: 0px 0px 2px; border-style: none none solid; border-bottom-color: rgb(255, 255, 255); outline: 0px; color: inherit; overflow: hidden;">
+
+								        <dt class="job_name">销售总监</dt>
+								        <dd class="job_ask">
+								            <span>职位描述</span><br>
+								            <div>
+								                1、负责对下属员工进行日常管理，配合公司进行部门建设、培训；</div>  
+								            <div>
+								                2、客户日常项目管理、项目推进与执行监控； </div>
+								            <div>
+								                3、客户日常接洽与维系，和客户建立良好沟通，开拓新的项目业务；</div>
+								            <div>
+								                4、深入挖掘各户需求，组织市场资料整理、整合内部资料进行项目提案；</div>
+								                <div>
+								                5、组织编制年、季、月度销售计划，确保销售计划指标超额完成，节约销售费用、根据销售报表及时指导督促回笼资金，加速公司资金周转；</div>
+								                <div>
+								                6、负责抓好调查、分析和预测工作。掌握行业动态，积极适时、合理有效地开辟新的业务渠道；</div>
+								            <div>
+								                7、严格控制项目流程，有效把控客户的反馈意见，在项目执行过程中遇到的问题，善于把握机会和危机公关</div>
+								                <div>
+								                8、及时编制市场营销各项费用预算，并控制相关费用的支出，节约管理成本；</div>
+								                <div>
+								                9、完成上级领导交办的其他工作。</div> 
+								        </dd>
+
+								        <dd class="job_require">
+								            <span>任职条件</span><br>
+								            <div>
+								                1、有4A广告公司销售、管理经验，具有独立开发新客户的能力；</div>
+								            <div>
+								                2、熟悉各类广告推广运作模式；</div>
+								            <div>
+								                3、有自己的客户资源，可直接为公司盈利；</div>
+								            <div>
+								                4、一定的客户服务和销售技巧，较强的工作执行力；有较强的的情绪控制能力和总结归纳能力，对工作认真负责,踏实稳重有耐心；</div>
+								        </dd>
+
+								    </dl>
+								</div><br>								
+							</div>
+						</div>
+					</div>
+					<div class="serven">
+						<div class="sub-tel">
+
+							<div class="callback">
+
+							<form action="http://www.rikee.com/" enctype="multipart/form-data" method="post">
+
+								<input type="hidden" name="action" value="post">
+
+								<input type="hidden" name="diyid" value="1">
+
+								<input type="hidden" name="do" value="2">
+
+								<p class="tip" style="font-weight: 400;">输入您的电话，我们即刻给您回电</p>
+
+								<div class="input-wrap">
+
+								<input type="text" name="tel" id="tel" class="intxt" value="" placeholder="点击这里输入您的电话">
+
+								</div>
+								<input type="hidden" name="time" id="time" class="intxt" value="">
+								<input type="hidden" name="dede_fields" value="tel,text;time,text">
+								<input type="hidden" name="dede_fieldshash" value="2d6876a96a2bb082b30ce73fb079f5b8">
+	
+								<div class="btn-wrap">
+	
+								<input type="submit" name="submit" value="点击，即可免费接通客服" class="callbtn coolbg" 	id="subcallbtn">
+	
+								</div>
+	
+							</form>
+							</div>
+						</div>
+						<div class="sub-addr" style="background-color:#e3e1d5;padding: 18px ;">
+							<div style="overflow:hidden;height:200px">
+    							<div style="margin-top:-31px;">
+							<iframe width="277" height="208" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/vl1-e"></iframe>
+							<p>深圳市南山区南海大道海翔广场4F</p>
+    							</div>
+							</div>
+						</div>
+						<div style="margin-top:30px">
+							<div style="font-size: 16px;border: none;color: #333;line-height: 20px;font-weight: bold;">
+								招聘联系方式
+							</div>
+							<ul class="news-list zpnews-list">
+						        <li class="news-list-li zpnews-list-li">
+						            <p class="date">
+						                <img src="../img/zhaopin-img/zp-phone.png" alt="">
+						            </p>
+						        </li>
+						    </ul>
+						</div>
+	    	</div>
+	    </div>
+	    <footer>
+	        <span id="anniu"></span>
+	    	<div class="thirteen">
+	    		<div class="thirteen1">
+	    			<p><a href="">服务条款</a>&nbsp;<span>|</span>
+	    			   <a href="">隐私政策</a>&nbsp;<span>|</span>
+	    			   <a href=""> 云吉天下</a>&nbsp;<span>|</span>
+	    			   <a href="">粤ICP备16070717号-1</a>
+	    			</p>
+	    			<p class="zhuce">CopyRight 2016-2019© rikee.com</p>
+	    		</div>
+	    		<div class="thirteen2">
+	    			<P>电话：400-0830-200</P>
+	    			<P>地址：深圳南山区南海大道海翔广场4F</P>
+	    		</div>
+	    		<div class="thirteen3">
+	    			<a href="" class="baidu"></a>
+	    			<img src="../img/foot_er.png" alt="" class="wxsm">
+	    			<a href="" class="weixin"></a>
+	    			<a href="" class="weibo"></a>
+	    		</div>
+	    	</div>
+	    </footer><!-- 底部 -->
+    </body>
+</html>
